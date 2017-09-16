@@ -302,9 +302,7 @@ Build
 Build with `make`. The build produces `bin/bees` and `lib/libcrucible.so`, which must be copied to somewhere in `$PATH` and `$LD_LIBRARY_PATH` on the target system respectively.
 
 ### Ubuntu 16.04:
-`$ apt -y install build-essential btrfs-tools uuid-dev markdown`
-
-`$ make`
+`$ apt -y install build-essential btrfs-tools uuid-dev markdown && make`
 
 Dependencies
 ------------
